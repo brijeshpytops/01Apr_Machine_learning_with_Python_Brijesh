@@ -1,1 +1,1 @@
-print("This is a python code")
+# https://peps.python.org/pep-0008/
