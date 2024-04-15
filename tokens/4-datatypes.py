@@ -61,6 +61,23 @@ dict_t = dict()
 # print(type(dict_t)) # <class 'dict'>
 
 bool_t = True
-print(type(bool_t)) # <class 'bool'>
+# print(type(bool_t)) # <class 'bool'>
+
+"""
+Explicit type conversion in programming is done manually by the programmer, while implicit conversion is handled automatically by the compiler.
+"""
+
+x = 10
+y = float(x)
+z = str(x)
+# 
+# print(x)
+# print(type(x))
+# 
+# print(z)
+# print(type(z))
+
+# print(y)
+# print(type(y))
 
 

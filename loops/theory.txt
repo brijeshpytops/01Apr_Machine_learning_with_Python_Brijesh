@@ -1,0 +1,13 @@
+In Python, loops are control structures that allow you to execute a block of code repeatedly based on a condition.  Python provides two main types of loops: for loops and while loops.
+
+For Loops:
+A for loop iterates over a sequence (such as a list, tuple, string, or range) and executes a block of code for each item in the sequence.
+
+for item in sequence:
+    # Code block to be executed for each item
+
+While Loops:
+A while loop repeats a block of code as long as a specified condition is True.
+
+while condition:
+    # Code block to be executed as long as condition is True
