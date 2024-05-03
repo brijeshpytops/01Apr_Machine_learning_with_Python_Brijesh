@@ -60,3 +60,22 @@ s = "this is a python code"
 
 # num = "657465gh"
 # print(not num.isalnum())
+
+
+# Escap sequence
+# print("\\")
+# print("\'")
+# print("\"")
+# print("brijesh go\ndaliya")
+# print("\tbrijesh")
+
+# string formating
+book = "python"
+price = 23.56632
+page = 400
+
+print("Book name is python. and its price - 23.56632 and page - 400")
+print(f"Book name is {book}. and its price - {price} and page - {page}")
+print("Book name is {}. and its price - {} and page - {}".format(book, price, page))
+print("Book name is {0}. and its price - {1} and page - {2}".format(book, price, page))
+print("Book name is %s. and its price - %.5f and page - %d" % (book, price, page))

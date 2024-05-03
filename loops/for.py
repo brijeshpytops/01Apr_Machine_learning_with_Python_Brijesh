@@ -202,3 +202,30 @@
 
 
 
+#         *
+#       * * *
+#     * * * * *
+#   * * * * * * *
+# * * * * * * * * *
+# 
+# num = 5
+# for row in range(1, num+1):
+#     print("  "*(num-row), "* "*(2*row-1))
+
+
+# num = 5
+# for row in range(num, 0, -1):
+#     print("  "*(num-row), "* "*(2*row-1))
+
+
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5
+
+num = 6
+for row in range(1, num+1):
+    for col in range(1, num+1):
+        print("%d"%(col), end=' ')
+    print("")
