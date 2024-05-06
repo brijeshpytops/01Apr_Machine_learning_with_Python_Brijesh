@@ -106,3 +106,36 @@ contacts = {
 # }
 # contacts.update(new_contacts)
 # print(contacts)
+
+
+
+users = []
+
+flag = True
+is_fisrt = True
+while(flag):
+    if not is_fisrt:
+        yesNo = input("You want to continue [y/n]: ")
+        if yesNo.lower() != 'y':
+            flag = False
+            break
+        else:
+            flag = True
+            is_fisrt = False
+
+    username = input("Username : ")
+    email = input("Email : ")
+    password = input("Password: ")
+    c_password = input("Confirm password: ")
+
+    if password == c_password:
+        user = {}
+        user['username'] = username
+        user['email'] = email
+        user['password'] = password
+        users.append(user)
+    
+    if is_fisrt:
+        is_fisrt = False
+    
+print(users)
