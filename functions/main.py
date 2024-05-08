@@ -160,3 +160,15 @@
 # 
 # test()
 
+# def generator_function():
+#     yield "brijesh"
+#     yield "namrata"
+#     yield "raj"
+# 
+# l  = iter(generator_function())
+# # print(type(l))
+# # print(l)
+# print(next(l))
+# print(next(l))
+# print(next(l))
+# print(next(l))
